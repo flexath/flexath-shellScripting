@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=100.0
+Type=Application
+Terminal=true
+Name=Flexath ROS
+Icon=/home/flexath/Downloads/ath.jpg
+Exec=bash /home/flexath/Coding/Shell\ Scripts/roslaunch\ sh\ files/topic_shell.sh
+
+$Exec=gnome-terminal -e "bash -c '/home/flexath/Coding/Shell\ Scripts/roslaunch\ sh\ files/topic_shell.sh;$SHELL'"
